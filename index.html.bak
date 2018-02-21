@@ -11,7 +11,7 @@
 
   <title>
     
-      Example content &middot; Irrational thoughts
+      Irrational thoughts &middot; 
     
   </title>
 
@@ -22,8 +22,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/thoughts/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/thoughts/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/thoughts//public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -36,7 +36,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="/thoughts/">
+        <a href="/">
           Irrational thoughts
         </a>
       </h1>
@@ -44,7 +44,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/thoughts/">Home</a>
+      <a class="sidebar-nav-item active" href="/">Home</a>
 
       
 
@@ -52,7 +52,17 @@
       
         
           
+        
+      
+        
+          
             <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+      
+        
           
         
       
@@ -68,10 +78,18 @@
 
 
     <div class="content container">
-      <div class="post">
-  <h1 class="post-title">Example content</h1>
-  <span class="post-date">07 Feb 2012</span>
-  <div class="message">
+      <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2012/02/07/example-content/">
+        Example content
+      </a>
+    </h1>
+
+    <span class="post-date">07 Feb 2012</span>
+
+    <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
 
@@ -81,15 +99,18 @@
 
 <p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
 
+  </div>
+  
 </div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-  </ul>
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
 </div>
-
     </div>
 
   </body>
